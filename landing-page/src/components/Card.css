@@ -1,0 +1,26 @@
+.card__container {
+    display: flex;
+    background: #E0F9FF;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.04);
+    border-radius: 20px;
+    margin: 0 80px;
+    justify-content: space-between;
+}
+
+.cards {
+    padding: 20px;
+}
+
+.card__header {
+    color: #641B98;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+@media (max-width: 640px) {
+    .card__container {
+        flex-direction: column;
+    }
+
+}

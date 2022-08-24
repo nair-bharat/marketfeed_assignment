@@ -1,0 +1,37 @@
+.about__container {
+    margin-top: 50px;
+    display: flex;
+    /* padding: 50px; */
+    /* justify-content: space-around; */
+}
+
+.about__header {
+    padding: 50px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.about__content {
+    padding: 50px;
+}
+
+.about__header__1 {
+    color: #637BFF;
+    
+}
+
+p {
+    white-space: pre;
+}
+
+.about__numbers {
+    color: #8149A8;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+@media (max-width: 640px) {
+    .about__container {
+        flex-direction: column;
+    }
+  }

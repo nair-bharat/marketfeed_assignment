@@ -1,0 +1,15 @@
+.sessions__container {
+    display: flex;
+    margin: 30px 80px;
+}
+
+.section__heading {
+    color: #637BFF;
+}
+
+
+@media (max-width : 640px) {
+    .sessions__container {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,46 @@
+.program__container {
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.heading {
+    font-size: 30px;
+    color: #484848;
+    font-weight: 700;
+}
+
+.heading_display {
+    color: #637BFF;
+}
+
+.content__heading {
+    color: #8149A8;
+    font-weight: 700;
+
+}
+
+.button__container {
+    width: 140px;
+    height: 54px;
+    background: #14CC60;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.09);
+    border-radius: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.program__card {
+
+    padding: 30px;
+    box-shadow: 0 1px 1px #333;
+    margin: 10px;
+}
+
+@media (max-width : 640px) {
+    .program__container {
+        flex-direction: column;
+    }
+}
