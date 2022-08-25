@@ -1,6 +1,7 @@
 .program__container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     box-sizing: border-box;
     overflow: hidden;
 }
@@ -18,7 +19,7 @@
 .content__heading {
     color: #8149A8;
     font-weight: 700;
-
+    font-size: 18px;
 }
 
 .button__container {
@@ -32,11 +33,30 @@
     cursor: pointer;
 }
 
-.program__card {
-
+.program__card_header {
+    width: 200px;
     padding: 30px;
     box-shadow: 0 1px 1px #333;
     margin: 10px;
+}
+
+.program__card {
+    width: 200px;
+    padding: 30px;
+    box-shadow: 0 1px 1px #333;
+    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offer_card {
+    background: rgb(234, 222, 113, 0.5);
+    border-radius: 6px;
+    padding: 2px;
+}
+
+.content__padding {
+    padding: 5px 0;
 }
 
 @media (max-width : 640px) {

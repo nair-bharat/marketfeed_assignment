@@ -7,44 +7,44 @@ import image4 from '../assets/magicpattern-blob-1623813645166 1-2.png';
 
 const Sessions = () => {
     return (
-        <div>
-            <div>
-                We prepare you for success in your
-                <span className='section__heading'>entire stock market lifecycle</span>
+        <div className='sessions__main'>
+            <div className='container__heading'>
+                <p>
+                    We prepare you for success in your <br /><span className='section__heading'>entire stock market lifecycle</span>
+                </p>
+
             </div>
+
             <div className='sessions__container'>
 
-                <div>
-                    <div>
+                <div className='sessions_child'>
+                    <div className='steps'>
                         STEP 1
                     </div>
-                    <div>
-                        Join us from anywhere,
+                    <div className='sessions__heading'>
+                        <span className='sessions__Text'>Join</span> us from anywhere,
                         anytime
                     </div>
-                    <div>
-                        breakout university is easily accessible
-                        over the internet, allowing you to learn,
-                        trade and succeed wherever and whenever
-                        you want.
+                    <div className='sessions__content'>
+                        breakout university is easily accessible over the internet, allowing you to learn, trade and succeed wherever and whenever you want.
                     </div>
                 </div>
-                <div>
-                    <img src={image1} alt="image1" />
+                <div className='image__container'>
+                    <img src={image1} alt="image1" className='image' />
                 </div>
             </div>
 
 
             <div className='sessions__container'>
                 <div>
-                    <img src={image2} alt="image2" />
+                    <img src={image2} alt="image2" className='image' />
                 </div>
-                <div>
-                    <div>
+                <div className='sessions_child'>
+                    <div className='steps'>
                         STEP 2
                     </div>
-                    <div>
-                        Learn with on-demand online lessons
+                    <div className='sessions__heading'>
+                    <span className='sessions__Text'>Learn</span> with on-demand online lessons
                         and daily interactive Q&amp;A sessions
                     </div>
                     <div>
@@ -57,12 +57,12 @@ const Sessions = () => {
 
 
             <div className='sessions__container'>
-                <div>
-                    <div>
+                <div className='sessions_child'>
+                    <div className='steps'>
                         STEP 3
                     </div>
                     <div>
-                        Practice with live trading sessions
+                    <span className='sessions__Text'>Practice</span> with live trading sessions
                         led by expert traders and advisors
                     </div>
                     <div>
@@ -70,21 +70,21 @@ const Sessions = () => {
                     </div>
                 </div>
                 <div>
-                    <img src={image3} alt="image3" />
+                    <img src={image3} alt="image3" className='image' />
                 </div>
             </div>
 
 
             <div className='sessions__container'>
                 <div>
-                    <img src={image4} alt="image4" />
+                    <img src={image4} alt="image4" className='image' />
                 </div>
-                <div>
-                    <div>
+                <div className='sessions_child'>
+                    <div className='steps'>
                         STEP 4
                     </div>
                     <div>
-                        Losses, Experience and Profits
+                        Losses, Experience and <span className='sessions__Text'>Profits</span>
                         #athishaktham 🚀
                     </div>
                     <div>

@@ -8,16 +8,16 @@ import facebook from '../assets/Facebook.svg';
 const Footer = () => {
     return (
         <div className='footer__container'>
-            <div>
-                <div>
+            <div className='footer__card'>
+                <div className='card__child'>
                     <img src={fundfolio_logo} alt="fundfolio" />
                 </div>
-                <div>
+                <div className='card__child'>
                     kinfra Hi-tech park
                     kalamassery, kochi
                     kerala 683503
                 </div>
-                <div>
+                <div className='card__child'>
                     <img src={youtube} alt="youtube" className='icons' />
                     <img src={instagram} alt="instagram" className='icons' />
                     <img src={twitter} alt="twitter" className='icons' />
@@ -26,48 +26,48 @@ const Footer = () => {
 
             </div>
 
-            <div>
-                <div className='link'>
+            <div className='footer__card'>
+                <div className='link header card__child'>
                     products
                 </div>
-                <div className='link'>
+                <div className='link card__child'>
                     marketfeed.news
                 </div>
-                <div className='link'>
+                <div className='link card__child'>
                     marketfeed.app
                 </div>
-                <div className='link'>
+                <div className='link card__child'>
                     breakout
                 </div>
             </div>
 
-            <div>
-                <div className='link'>
+            <div className='footer__card'>
+                <div className='link header card__child'>
                     company
                 </div>
-                <div className='link'>
+                <div className='link card__child'>
                     about
                 </div>
-                <div className='link'>
+                <div className='link card__child'>
                     career
                 </div>
 
             </div>
 
-            <div>
-                <div className='link'>
+            <div className='footer__card'>
+                <div className='link header card__child'>
                     more
                 </div>
-                <div className='link'>
+                <div className='link card__child'>
                     disclaimer
                 </div>
-                <div className='link'>
+                <div className='link card__child'>
                     help &amp; support
                 </div>
-                <div className='link'>
+                <div className='link card__child'>
                     privacy policy
                 </div>
-                <div className='link'>
+                <div className='link card__child'>
                     terms &amp; conditions
                 </div>
 

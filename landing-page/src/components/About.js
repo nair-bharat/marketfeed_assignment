@@ -4,11 +4,7 @@ const About = () => {
     return (
         <div className='about__container'>
             <div className='about__header'>
-                About
-                <span className='about__header__1'>
-                    Breakout University
-                </span>
-
+                About <span className='about__header__1'>Breakout University</span>
             </div>
             <div className='about__content'>
                 <div>
@@ -17,8 +13,31 @@ const About = () => {
                 <div>
                     Our stock trading training platform is an educational initiative of fundfolio and the vision of Sharique Samsudheen, specially designed to help you break out into the world of stock market and claim your financial freedom.
                 </div>
-                <div>
-                        <span className='about__numbers'>800k+ </span>FOLLOWERS    <span className='about__numbers'>100k+ </span>STUDENTS    <span className='about__numbers'>3000+ </span>Traders
+                <div className='stats__numbers'>
+                    <div className='stats__numbers__child'>
+                        <div className='about__numbers'>
+                            800k+
+                        </div>
+                        <div>
+                            FOLLOWERS
+                        </div>
+                    </div>
+                    <div className='stats__numbers__child'>
+                        <div className='about__numbers'>
+                            100k+
+                        </div>
+                        <div>
+                            STUDENTS
+                        </div>
+                    </div>
+                    <div className='stats__numbers__child'>
+                        <div className='about__numbers'>
+                            3000+
+                        </div>
+                        <div>
+                            Traders
+                        </div>
+                    </div>
 
                 </div>
             </div>

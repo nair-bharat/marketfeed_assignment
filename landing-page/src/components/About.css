@@ -1,14 +1,14 @@
 .about__container {
     margin-top: 50px;
     display: flex;
-    /* padding: 50px; */
-    /* justify-content: space-around; */
+    justify-content: center;
 }
 
 .about__header {
     padding: 50px;
     font-weight: 700;
     font-size: 30px;
+    width: 200px;
 }
 
 .about__content {
@@ -23,6 +23,15 @@
 p {
     white-space: pre;
 }
+
+.stats__numbers {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .stats__numbers__child {
+    padding: 5px 10%;
+} */
 
 .about__numbers {
     color: #8149A8;

@@ -3,14 +3,31 @@
     color: white;
     background-color: #1A1D24;
     justify-content: space-around;
-    padding: 30px;
-    margin-top: 30px;
+    padding: 60px 30px;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+img {
+    cursor: pointer;
+}
+.header {
+    font-size: 18px;
 }
 
 .icons {
     cursor: pointer;
+    padding: 3.5px;
 }
 
 .link {
     cursor: pointer;
+}
+
+.footer__card {
+    width: 180px;
+}
+
+.card__child {
+    margin: 10px;
 }

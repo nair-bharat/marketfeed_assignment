@@ -1,10 +1,8 @@
 import './Header.css';
 import logo from '../assets/breakout_uty_logo.png';
 import whatsapp from '../assets/wtsp_logo.png';
-import group972 from '../assets/Group 972.png';
-import group8863 from '../assets/Group 886@3x-3.png';
-import group8864 from '../assets/Group 886@3x-4.png';
-import group8865 from '../assets/Group 886@3x-5.png';
+import hero_img_web from '../assets/hero_img_web.png';
+
 
 const Header = () => {
     return (
@@ -14,8 +12,8 @@ const Header = () => {
                 <button><img src={whatsapp} alt="whatsapp" className='button__1'/>chat with us</button>
             </div>
             <div className='header__container'>
-                <div>
-                    <div>
+                <div className='header__text__container'>
+                    <div className='header__heading'>
                         Digital Learning Platform
                     </div>
                     <div className='header__text1'>
@@ -23,22 +21,18 @@ const Header = () => {
                         <div>Stock Market</div>
                         <div>University</div>
                     </div>
-                    <div>
+                    <div className="header__Text2">
                         Become a successful stock market trader and investor, learning directly from Sharique Samsudheen and his team of stock market experts!
                     </div>
-                    <div>
+                    <div className='button__container'>
                         <button className='button__join'>Join Now</button>
                     </div>
-                    <div>
+                    <div className="header__Text3">
                         Trusted by over 3000+ Traders
                     </div>
                 </div>
-                <div>
-                    <img src={group972} alt="group972" className='main__image' />
-                    {/* <img src={group8863} alt="group8863" />
-                    <img src={group8864} alt="group8864" />
-                    <img src={group8865} alt="group8865" /> */}
-
+                <div className='image__container'>
+                    <img src={hero_img_web} alt="hero_img_web" className='main__image' />
                 </div>
             </div>
 

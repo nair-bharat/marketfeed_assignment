@@ -8,7 +8,10 @@ const Card = () => {
         <div className='card__container'>
             <div className='cards'>
                 <div className='card__header'>
-                    <img src={operator} alt="operator" />
+                    <div>
+                        <img src={operator} alt="operator" />
+                    </div>
+
                     Virtual Campus
                     Community
                 </div>
@@ -18,7 +21,10 @@ const Card = () => {
             </div>
             <div className='cards'>
                 <div className='card__header'>
-                    <img src={customer_review} alt="customer_review" />
+                    <div>
+                        <img src={customer_review} alt="customer_review" />
+                    </div>
+
                     Practical
                     Learning
                 </div>
@@ -27,8 +33,11 @@ const Card = () => {
                 </div>
             </div>
             <div className='cards'>
+
                 <div className='card__header'>
-                    <img src={comment} alt="comment" />
+                    <div>
+                        <img src={comment} alt="comment" />
+                    </div>
                     For Traders,
                     By Traders
                 </div>
