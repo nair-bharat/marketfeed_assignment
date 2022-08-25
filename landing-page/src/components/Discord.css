@@ -1,11 +1,11 @@
 .discord__container {
     display: flex;
-    background-color: #F5DCFF;
     border: 1px solid rgba(0, 0, 0, 0.06);
     border-radius: 40px;
     padding: 50px;
-    margin: 50px 80px;
-   /*  justify-content: space-around; */
+    margin: 15vh 15vw;
+    background-color: linear-gradient(151.68deg, #FFEAAA -2.69%, #A6FFE5 98.31%);
+    opacity: 1;
 }
 
 .discord__img {
@@ -15,6 +15,7 @@
 .discord__header {
     color: #C3B85D;
     text-transform: uppercase;
+    padding: 1vh 0;
 }
 
 .join__button {
@@ -31,14 +32,26 @@
     color: #BC00CC;
     font-size: 30px;
     font-weight: 700;
+    padding: 1vh 0;
 }
 
+.discord__message_Text2 {
+    padding: 1vh 0;
+}
+
+.discord_button-container {
+    padding: 2vh 0;
+}
 
 
 @media (max-width: 640px) {
     .discord__container {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
+
     .discord__img {
         width: 100%;
     }

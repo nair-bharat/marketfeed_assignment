@@ -1,36 +1,48 @@
 import './Contact.css';
-import image from '../assets/talktous_image.png';
+import talktous_image from '../assets/talktous_image.png';
 
 const Contact = () => {
     return (
-        <div className='contact__container'>
-            <div>
-                Talk to Us
-            </div>
-            <div>
+
+        <div>
+            <div className='contact__container'>
                 <div>
-                    <div>
-                        Send us an Email
+                    <div className='contact__header'>
+                        Talk to Us
                     </div>
-                    <div>
-                        hello@fundfolio.in
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        Give us a call
-                    </div>
-                    <div>
-                        +91 99006 63322
+
+                    <div className='contact__body'>
+                        <div className='contact__body_box box_color'>
+                            <div className='box_header'>
+                                Send us an Email
+                            </div>
+                            <div className='box_content'>
+                                hello@fundfolio.in
+                            </div>
+                        </div>
+                        <div className='contact__body_box box_color'>
+                        <div className='box_header'>
+                                Give us a call
+                            </div>
+                            <div className='box_content'>
+                                +91 99006 63322
+                            </div>
+                        </div>
+                        <div className='contact__body_box image_box'>
+                            <div>
+                                <img src={talktous_image} alt="talktous_image" />
+                            </div>
+                        </div>
+
                     </div>
                 </div>
 
-            </div>
-            <div>
-                <img src={image} alt="image" />
+
+
             </div>
 
         </div>
+
     );
 };
 

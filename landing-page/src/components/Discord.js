@@ -12,10 +12,10 @@ const Discord = () => {
                     We have everyone covered.
                     Join FREE Section
                 </div>
-                <div>
+                <div className='discord__message_Text2'>
                     There is space for everyone! Join the FREE section of our virtual campus on Discord and connect with like-minded students and stock market trading experts. Talk to us directly there and get onboarded onto the stock market world.
                 </div>
-                <div>
+                <div className='discord_button-container'>
                     <button className='join__button'> Take Me There</button>
                 </div>
             </div>

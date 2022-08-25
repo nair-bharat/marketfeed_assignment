@@ -3,13 +3,11 @@
     background: #E0F9FF;
     border-radius: 20px;
     justify-content: center;
+    margin: 15vh 10vw;
 }
 
 .cards {
-    padding: 20px;
-    margin: 0 30px;
-    width: 200px;
-    border: 2px solid yellow;
+    padding: 2vh 8vw;
 }
 
 .card__header {

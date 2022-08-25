@@ -1,18 +1,22 @@
 .about__container {
-    margin-top: 50px;
     display: flex;
     justify-content: center;
+    margin: 15vh 10vw;
 }
 
 .about__header {
-    padding: 50px;
     font-weight: 700;
     font-size: 30px;
     width: 200px;
 }
 
 .about__content {
-    padding: 50px;
+    margin: 0 5vw;
+}
+
+
+.about__content_para2 {
+    padding: 2vh 0;
 }
 
 .about__header__1 {
@@ -29,10 +33,6 @@ p {
     justify-content: space-around;
 }
 
-/* .stats__numbers__child {
-    padding: 5px 10%;
-} */
-
 .about__numbers {
     color: #8149A8;
     font-size: 30px;
@@ -42,5 +42,21 @@ p {
 @media (max-width: 640px) {
     .about__container {
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .about__header {
+        padding: 10px 0;
+    }
+
+    .about__content {
+        padding: 10px 40px;
+    }
+    
+    .stats__numbers {
+        padding: 10px 10px;
+        justify-content: space-between;
     }
   }
