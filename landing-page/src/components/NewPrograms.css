@@ -37,7 +37,6 @@
 .program__card_header {
     width: 200px;
     padding: 30px;
-    box-shadow: 0 1px 1px #333;
     margin: 10px;
 }
 
@@ -45,23 +44,41 @@
     width: 200px;
     padding: 30px;
     box-shadow: 0 1px 1px #333;
-    margin: 10px;
+    margin: 20px;
     justify-content: space-between;
     align-items: center;
+    border-radius: 10px;
 }
 
 .offer_card {
     background: rgb(234, 222, 113, 0.5);
     border-radius: 6px;
-    padding: 2px;
+    padding: 1vh;
+    margin: 2vh 0;
 }
 
 .content__padding {
-    padding: 5px 0;
+    padding: 1vh 0;
+}
+
+.card_2 {
+    margin-top: 10vh;
 }
 
 @media (max-width : 640px) {
     .program__container {
         flex-direction: column;
+    }
+
+    .program__card_header {
+        text-align: center;
+    }
+
+    .visible-mobile {
+        display: inline !important;
+    }
+
+    .hidden-mobile {
+        display: none !important;
     }
 }

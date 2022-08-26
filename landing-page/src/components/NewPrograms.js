@@ -3,32 +3,35 @@ import './NewPrograms.css';
 const NewPrograms = () => {
     return (
         <div className='program__container'>
-            <div className='program__card_header heading'>
+            <div className='program__card_header heading hidden-mobile'>
                 Discover
                 <div>
                     <span className='heading_display'>Our Programs</span>
                 </div>
             </div>
+            <div className='program__card_header heading visible-mobile'>
+                <span className='heading_display'>Programs</span> We Offered
+            </div>
             <div className='program__card'>
                 <div className='content__heading content__padding'>
                     Stock Market Basics
                 </div>
-                <div /* className='content__padding' */>
+                <div className='content__padding'>
                     ₹ 9999/seat
                 </div>
-                <div /* className='content__padding' */>
+                <div className='content__padding'>
                     Weekly Live
                 </div>
-                <div /* className='content__padding' */>
+                <div className='content__padding'>
                     Raise Ticket
                 </div>
-                <div /* className='content__padding' */>
+                <div className='content__padding'>
                     Monthly Webinars
                 </div>
-                <div/*  className='content__padding' */>
+                <div className='content__padding'>
                     Group support from us
                 </div>
-                <div /* className='offer_card' */>
+                <div className='offer_card'>
                     <div>
                         Claim your 10% off - if you have
                         demat account through us
@@ -66,7 +69,7 @@ const NewPrograms = () => {
                     Group support from us
                 </div>
                 <div>
-                    <button className='button__container'>
+                    <button className='button__container card_2'>
                         Book my seat
                     </button>
                 </div>

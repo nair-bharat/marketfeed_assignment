@@ -56,7 +56,12 @@ p {
     }
     
     .stats__numbers {
+        flex-direction: column;
         padding: 10px 10px;
         justify-content: space-between;
+    }
+
+    .about__numbers {
+        padding: 1vh 0;
     }
   }

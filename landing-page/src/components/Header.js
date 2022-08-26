@@ -15,16 +15,22 @@ const Header = () => {
             </div>
             <div className='header__container'>
                 <div className='header__text__container'>
-                    <div className='header__heading'>
+                    <div className='header__heading hidden-mobile'>
                         Digital Learning Platform
+                    </div>
+                    <div className='header__heading visible-mobile'>
+                        Online Education
                     </div>
                     <div className='header__content'>
                         <div className='header__Text1'>World’s #1</div>
                         <div>Stock Market</div>
                         <div>University</div>
                     </div>
-                    <div className="header__Text2">
-                        Become a successful stock market trader and investor, learning directly from Sharique Samsudheen and his team of stock market experts!
+                    <div className="header__Text2 hidden-mobile">
+                        Become a successful stock market trader and investor, learning directly from <b>Sharique Samsudheen</b> and his team of stock market experts!
+                    </div>
+                    <div className="header__Text2 visible-mobile">
+                        Open up a world of possibilities by learning directly from <b>Sharique Samsudheen</b> and team.
                     </div>
                     <div className='join-button__styling'>
                         <button className='join__button__header'>Join Now</button>
@@ -34,8 +40,8 @@ const Header = () => {
                     </div>
                 </div>
 
-                <img src={hero_img_mob} alt="hero_img_mob" className='image visible-mobile' />
-                <img src={hero_img_web} alt="hero_img_web" className='image_web hidden-mobile' />
+                <img src={hero_img_mob} alt="hero_img_mob" className='image_mob visible-mobile' />
+                <img src={hero_img_web} alt="hero_img_mobile" className='image_web hidden-mobile' />
             </div>
 
         </div>

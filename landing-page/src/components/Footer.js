@@ -4,11 +4,15 @@ import twitter from '../assets/Twitter.svg';
 import youtube from '../assets/YouTube.svg';
 import instagram from '../assets/Instagram.svg';
 import facebook from '../assets/Facebook.svg';
+import breakout_uty_logo from '../assets/breakout_uty_logo.png';
 
 const Footer = () => {
     return (
         <div className='footer__container'>
             <div className='footer__card'>
+                <div className='card__child visible-mobile'>
+                    <img src={breakout_uty_logo} alt="breakout_uty_logo" />
+                </div>
                 <div className='card__child'>
                     <img src={fundfolio_logo} alt="fundfolio" />
                 </div>

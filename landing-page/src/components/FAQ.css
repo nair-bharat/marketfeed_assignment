@@ -34,9 +34,9 @@
 }
 
 .faq-body {
+    padding: 30px 20px;
+    width: 60%;
     margin: auto;
-    width: 50%;
-    padding: auto;
 
 }
 
@@ -46,7 +46,6 @@
 }
 
 .faq-body {
-    padding: 0 18px;
     background-color: white;
     display: none;
     overflow: hidden;

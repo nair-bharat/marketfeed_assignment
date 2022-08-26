@@ -13,6 +13,8 @@ img {
 }
 .header {
     font-size: 18px;
+    font-weight: 600;
+    color: #56535F;
 }
 
 .icons {
@@ -30,4 +32,16 @@ img {
 
 .card__child {
     margin: 10px;
+}
+
+@media (max-width: 640px) {
+    .footer__container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .visible-mobile {
+        display: inline !important;
+      }
 }
