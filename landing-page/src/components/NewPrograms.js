@@ -36,7 +36,7 @@ const NewPrograms = () => {
                         Claim your 10% off - if you have
                         demat account through us
                     </div>
-                    <div>
+                    <div className='eligibility_check'>
                         Check Eligibility
                     </div>
                 </div>

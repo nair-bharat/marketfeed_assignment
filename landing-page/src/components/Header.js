@@ -10,7 +10,7 @@ const Header = () => {
         <div className='main__container'>
             <div className='heading__header'>
                 <img src={logo} alt="logo" />
-                <button className='chat__button hidden-mobile'><img src={whatsapp} alt="whatsapp" />chat with us</button>
+                <button className='chat__button hidden-mobile'><img src={whatsapp} alt="whatsapp" /><span>chat with us</span></button>
                 <img src={whatsapp} alt="whatsapp" className='whatsapp_mob visible-mobile' />
             </div>
             <div className='header__container'>

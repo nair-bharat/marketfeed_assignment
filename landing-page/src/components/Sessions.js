@@ -60,7 +60,7 @@ const Sessions = () => {
                         <div className='steps'>
                             STEP 3
                         </div>
-                        <div>
+                        <div className='sessions__heading'>
                             <span className='sessions__Text'>Practice</span> with live trading sessions
                             led by expert traders and advisors
                         </div>
@@ -82,7 +82,7 @@ const Sessions = () => {
                         <div className='steps'>
                             STEP 4
                         </div>
-                        <div>
+                        <div className='sessions__heading'>
                             Losses, Experience and <span className='sessions__Text'>Profits</span>
                             #athishaktham 🚀
                         </div>
@@ -142,7 +142,7 @@ const Sessions = () => {
                         <div className='steps'>
                             STEP 3
                         </div>
-                        <div>
+                        <div className='sessions__heading'>
                             <span className='sessions__Text'>Practice</span> live trade sessions with experts and advisors
                         </div>
                         <div>
@@ -161,7 +161,7 @@ const Sessions = () => {
                         <div className='steps'>
                             STEP 4
                         </div>
-                        <div>
+                        <div className='sessions__heading'>
                             <span className='sessions__Text'>Earn</span> from the stock market #athishaktham 🚀
                         </div>
                         <div>

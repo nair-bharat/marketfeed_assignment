@@ -2,23 +2,104 @@ import './FAQ.css';
 import { useState } from 'react';
 const FAQ = () => {
 
-    const [showResults, setShowResults] = useState(false);
+    const [showResults_Q1, setShowResults_Q1] = useState(false);
+    const [showResults_Q2, setShowResults_Q2] = useState(false);
+    const [showResults_Q3, setShowResults_Q3] = useState(false);
+    const [showResults_Q4, setShowResults_Q4] = useState(false);
+    const [showResults_Q5, setShowResults_Q5] = useState(false);
+    const [showResults_Q6, setShowResults_Q6] = useState(false);
+    const [showResults_Q7, setShowResults_Q7] = useState(false);
 
     const onClick = i => () => {
         console.log("clicked");
         var ele = document.getElementsByClassName('faq-body');
         console.log(i);
-
+        /* console.log(showResults_Q1); */
+        
         i = parseInt(i);
 
-        if (!showResults) {
-            ele[i].style.display = "block";
-            setShowResults(true);
+        if (i === 0) {
+            if (!showResults_Q1) {
+                ele[i].style.display = "block";
+                setShowResults_Q1(true);
+            }
+    
+            else {
+                ele[i].style.display = "none";
+                setShowResults_Q1(false);
+            }
         }
 
-        else {
-            ele[i].style.display = "none";
-            setShowResults(false);
+        if (i === 1) {
+            if (!showResults_Q2) {
+                ele[i].style.display = "block";
+                setShowResults_Q2(true);
+            }
+    
+            else {
+                ele[i].style.display = "none";
+                setShowResults_Q2(false);
+            }
+        }
+
+        if (i === 2) {
+            if (!showResults_Q3) {
+                ele[i].style.display = "block";
+                setShowResults_Q3(true);
+            }
+    
+            else {
+                ele[i].style.display = "none";
+                setShowResults_Q3(false);
+            }
+        }
+
+        if (i === 3) {
+            if (!showResults_Q4) {
+                ele[i].style.display = "block";
+                setShowResults_Q4(true);
+            }
+    
+            else {
+                ele[i].style.display = "none";
+                setShowResults_Q4(false);
+            }
+        }
+
+        if (i === 4) {
+            if (!showResults_Q5) {
+                ele[i].style.display = "block";
+                setShowResults_Q5(true);
+            }
+    
+            else {
+                ele[i].style.display = "none";
+                setShowResults_Q5(false);
+            }
+        }
+
+        if (i === 5) {
+            if (!showResults_Q6) {
+                ele[i].style.display = "block";
+                setShowResults_Q6(true);
+            }
+    
+            else {
+                ele[i].style.display = "none";
+                setShowResults_Q6(false);
+            }
+        }
+
+        if (i === 6) {
+            if (!showResults_Q7) {
+                ele[i].style.display = "block";
+                setShowResults_Q7(true);
+            }
+    
+            else {
+                ele[i].style.display = "none";
+                setShowResults_Q7(false);
+            }
         }
 
 
